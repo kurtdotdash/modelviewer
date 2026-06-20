@@ -74,18 +74,18 @@
   </style>
 </head>
 
-<body>
-
 <model-viewer
   src="LNWAY.glb"
   ios-src="LNWAY.usdz"
   alt="LNWAY Sign"
   ar
   ar-modes="webxr scene-viewer quick-look"
+  ar-scale="fixed"
   camera-controls
   touch-action="pan-y"
   shadow-intensity="1"
-  exposure="1">
+  exposure="1"
+  scale="1000 1000 1000">
 
   <button slot="ar-button" id="ar-button">
     View Sign in AR
